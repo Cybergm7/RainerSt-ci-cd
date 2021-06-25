@@ -22,6 +22,7 @@ namespace RainerSt_ci_cd.Controllers
         {
             _logger = logger;
         }
+        //Test
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
